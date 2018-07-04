@@ -1,6 +1,6 @@
 {
 	"name": "generator-mvc-light",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Mvc light Generator for Express with TypeScript and Inversify",
 	"main": "index.js",
 	"keywords": [
@@ -12,7 +12,7 @@
 		"inversify"
 	],
 	"files": [
-		"app"
+		"app/"
 	],
 	"author": "Hugo Softwares",
 	"license": "Apache",
