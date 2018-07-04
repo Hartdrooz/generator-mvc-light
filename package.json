@@ -1,0 +1,24 @@
+{
+	"name": "generator-mvc-light",
+	"version": "0.0.1",
+	"description": "Mvc light Generator for Express with TypeScript and Inversify",
+	"main": "index.js",
+	"keywords": [
+		"yeoman-generator",
+		"typescript",
+		"express",
+		"node",
+		"mvc",
+		"inversify"
+	],
+	"files": [
+		"app"
+	],
+	"author": "Hugo Softwares",
+	"license": "Apache",
+	"dependencies": {
+		"decamelize": "^2.0.0",
+		"uppercamelcase": "^3.0.0",
+		"yeoman-generator": "^3.0.0"
+	}
+}
