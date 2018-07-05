@@ -29,4 +29,9 @@ export class WebServer extends ExpressServer {
 		return [`${path.join(__dirname, '../public')}`];
 	}
 	registerMiddleware(app: Express): void {}
+
+	initApplication(container: Container): Promise<Error> {
+		const promise = Promise.resolve(null);
+		return promise;
+	}
 }
