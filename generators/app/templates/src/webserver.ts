@@ -1,4 +1,4 @@
-import { ExpressServer, TYPES, ILoggerService } from 'mvclight';
+import { ExpressServer } from 'mvclight';
 import { Container, inject } from 'inversify';
 import { Request, Response, NextFunction, Express } from 'express';
 import * as path from 'path';

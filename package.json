@@ -1,6 +1,6 @@
 {
 	"name": "generator-mvc-light",
-	"version": "0.0.4",
+	"version": "1.0.0",
 	"description": "Mvc light Generator for Express with TypeScript and Inversify",
 	"main": "generators/index.js",
 	"keywords": [

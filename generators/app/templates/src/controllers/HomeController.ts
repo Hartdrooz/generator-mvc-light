@@ -1,4 +1,4 @@
-import { controller, IController, TYPES } from 'mvclight';
+import { controller, IController } from 'mvclight';
 import { Router, Request, Response } from 'express';
 import { inject } from 'inversify';
 import { IHelloWorldService } from './../services/HelloWorld.service';
