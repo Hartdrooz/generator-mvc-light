@@ -30,6 +30,8 @@ export class WebServer extends ExpressServer {
 	}
 	registerMiddleware(app: Express): void {}
 
+	setRoutes(app: Express): void {}
+
 	initApplication(container: Container): Promise<Error> {
 		const promise = Promise.resolve(null);
 		return promise;
